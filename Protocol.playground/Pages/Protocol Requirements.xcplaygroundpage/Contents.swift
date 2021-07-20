@@ -19,7 +19,15 @@ protocol MyTech {
 
 protocol MyFavouriteDrink {
     // Write Property
-    var myHotDrinkPref: String {set}
+    var myHotDrinkPref: String {get set}
 }
 
+protocol MyAge {
+    // Defining Static Property
+    // Owned by the Type, eg. Struct
+    // Shared by all it's instances
+    // If one instance value changes then all changes
+    // Similar concept to Singleton
+    static var myDateOfBirth: Date {get set}
+}
 
