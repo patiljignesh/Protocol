@@ -13,6 +13,6 @@ protocol FullName {
     func getFullName() -> String
     
     // This method is allowed to modify the instance it belongs to
-    mutating func changeName() -> String
+    mutating func changeName()
     
 }
