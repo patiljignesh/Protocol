@@ -4,5 +4,6 @@
         <page name='Protoco Properties'/>
         <page name='Protocol Requirements'/>
         <page name='Protocol Method Requirements'/>
+        <page name='Optional Requirements '/>
     </pages>
 </playground>
