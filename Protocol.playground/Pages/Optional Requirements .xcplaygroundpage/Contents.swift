@@ -5,6 +5,8 @@ import Foundation
 // @objc is defining optional requirements
 // It can only be adopeted by Classes
 // Structure or enumerations cannot adopt this protocol
+// When using @objc we cannot use mutating keyword as it is
+// NOI valid for classes
 
 @objc protocol Phone {
     var phoneNumber: String {get set}
